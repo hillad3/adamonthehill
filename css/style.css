@@ -24,8 +24,9 @@ nav{
 }
 
 .dropdown-menu {
-  position: inline;
+  position: absolute;
   display: inline-block;
+  width: 10%;
   text-align: left;
 }
 
@@ -41,11 +42,10 @@ nav{
 
 .dropdown-menu:hover .dropdown-content {
   display: grid;
-  padding-top: 0.5%;
 }
 
 main{
-  position: inline;
+  position: relative;
 }
 
 header h1{
