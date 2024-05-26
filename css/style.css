@@ -19,8 +19,10 @@ nav{
 }
 
 .navbar-logo{
+  position: relative;
   width: 15%;
   margin-right: 5%;
+  background-size: contain;
 }
 
 .dropdown-menu {
