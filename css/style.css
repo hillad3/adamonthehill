@@ -3,23 +3,31 @@ html{
 }
 
 body{
-  background-image: url('../images/background_hill.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0%;
+  background-color: rgb(119, 176, 196);
+  color: white;
+  max-width: 800px;
 }
 
 nav{
-  background-color: white;
   text-align: right;
-  padding: 1%;
-  border-bottom: solid;
+  margin-left: 20px;
+  border-bottom: none;
+}
+
+.navbar{
+  display: flex;
+  width: 600px;
+}
+
+.navbar-logo{
+  width: 150px;
+  margin-right: 20px;
 }
 
 .dropdown-menu {
-  position: relative;
+  position: inline;
   display: inline-block;
+  text-align: left;
 }
 
 .dropdown-button {
@@ -28,17 +36,21 @@ nav{
 }
 
 .dropdown-content {
-  display: none;
   position: absolute;
+  display: none;
 }
 
 .dropdown-menu:hover .dropdown-content {
-  display:block;
+  display: grid;
+  padding-top: 10px;
 }
 
 main{
-  height: 700px;
-  backdrop-filter: blur(4px);
+  position: inline;
+}
+
+header h1{
+  width: 200px;
 }
 
 h1{
@@ -61,4 +73,8 @@ form{
 h2, .input-form{
   text-align: left;
   margin: 2%
+}
+
+a{
+  color: black;
 }
